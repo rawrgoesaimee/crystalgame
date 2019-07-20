@@ -1,17 +1,113 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 34px;
-    color: #777777;
-    background: url("crystalbackground.png");
-  }
+    color: black;
+    background-image: url("../images/crystalbackground.png");
+}
 
 h1{
 display: flex;
 align-items: center;
 background-color: lightblue;
 margin-top: 20px;
+margin-left: 10px;
 font-size: 50px;
 text-align: center;
 width: 35%;
 height: 100px;
 }
+
+.instructions{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: lightseagreen;
+margin-top:20px;
+margin-left: 10px;
+width: 60%;
+height: 500px;
+
+}
+.instructions p{
+margin:10px;
+color: antiquewhite;
+}
+
+.crystals{
+display: flex;
+flex-direction: row;
+margin-left:10px;
+}
+
+img{
+margin-top: 10px;
+margin-left: 10px;
+width:100px;
+height: auto;
+}
+
+.numberTotal{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+#givennumber{
+background-color: lightsalmon;
+margin-top: 10px;
+margin-left: 10px;
+width: 30%;
+height: 100px;
+}
+
+#win{
+background-color: darkslateblue;
+margin-top: 10px;
+margin-left: 10px;
+padding-left: 10px;
+width: 20%;
+height: 100px;
+}
+
+#lose{
+background-color: darkslateblue;
+margin-top: 10px;
+margin-left: 10px;
+padding-left: 10px;
+width: 20%;
+height: 100px;
+}
+
+.totalscorebox{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+#total{
+background-color: pink;
+text-align: center;
+margin-top: 10px;
+margin-left: 10px;
+width: 50%;
+height: 30px;
+}
+
+#totaladd{
+  background-color: pink;
+  margin-top: 10px;
+  margin-left: 12%;
+  width: 30%;
+  height: 100px;
+}
+
+
+@media screen and (max-width: 980px) {
+  
+}
+@media screen and (max-width: 768px) {
+  
+  }
+
+@media screen and (max-width: 640px) {
+  
+  }
