@@ -31,20 +31,24 @@
             Each time when the game starts, the game will change the values of each crystal.
         </p>
     </section>
-    <section class = "numberTotal">
+    <section class="givenNumber">
         <p id = "giveNumber"></p>
-        <p id = "win"> Wins: </p>
-        <p id = "lose"> Losses: </p>
-    </section>
-    <section class = "crystals">
-        <img id="apatiteCrystal" src ="assets/images/apatitecrystal.jpg" alt="apatite crystal">
-        <img id="bloodStone" src ="assets/images/bloodstone.jpg" alt="bloodstone">
-        <img id="garnetCrystal" src = "assets/images/garnetcrystal.jpg" alt= "garnet crystal">
-        <img id="pinkTourmaline" src = "assets/images/pinktourmaline.jpg" alt="pink tourmaline">
+        <section class = "numberTotal">
+                <p class = "winsloss"> Wins: <span id = "win"></span></p>
+                <p class= "winsloss"> Losses: <span id = "lose"></span></p>
+        </section>
+    </section> 
+    
+    <section class = "crystalContainer">
+        <img class="crystals" id="apatiteCrystal" src ="assets/images/apatitecrystal.jpg" alt="apatite crystal">
+        <img class="crystals" id="bloodStone" src ="assets/images/bloodstone.jpg" alt="bloodstone">
+        <img class="crystals" id="garnetCrystal" src = "assets/images/garnetcrystal.jpg" alt= "garnet crystal">
+        <img class="crystals" id="pinkTourmaline" src = "assets/images/pinktourmaline.jpg" alt="pink tourmaline">
     </section>
     <section class = "totalscorebox">
         <p id="total">Your total score: </p> 
-        <p id="totaladd">  </p>
+        <p id="totalAdd">  </p>
+        <h3 id="playAgain">PLAY AGAIN?</h3>
     </section>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/Javascript/game.js"></script>

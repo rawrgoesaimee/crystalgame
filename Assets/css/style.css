@@ -33,7 +33,7 @@ h1{
   color: antiquewhite;
   }
 
-.crystals{
+.crystalContainer{
   display: flex;
   flex-direction: row;
   margin-left:10px;
@@ -65,14 +65,24 @@ img{
   height: 100px;
 }
 
+.winsloss{
+  display: flex;
+  flex-direction: row;
+  background-color: darkslateblue;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 25%;
+  height: 100px;
+}
+
 #win{
   display: flex;
   justify-content: center;
   background-color: darkslateblue;
-  margin-top: 10px;
   margin-left: 10px;
   padding-left: 10px;
-  padding-top: 10px;
   width: 10%;
   height: 100px;
 }
@@ -81,16 +91,14 @@ img{
   display: flex;
   justify-content: center;
   background-color: darkslateblue;
-  margin-top: 10px;
   padding-left: 10px;
-  padding-top: 10px;
   width: 15%;
   height: 100px;
 }
 
 .totalscorebox{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
@@ -98,26 +106,38 @@ img{
   display: flex;
   justify-content: center;
   background-color: pink;
+  padding-top: 10px;
+  font-size: 40px;
   text-align: center;
   margin-top: 10px;
   margin-left: 10px;
   width: 50%;
-  height: 30px;
+  height: 100px;
 }
 
-#totaladd{
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
+#totalAdd{
+  font-size: 40px;
   background-color: pink;
   padding-top: 10px;
   padding-left: 10px;
   margin-top: 10px;
-  margin-left: 12%;
   width: 30%;
   height: 100px;
 }
 
+#playAgain{
+  display: flex;
+  justify-content: center;
+  background-color: lightgreen;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left:10px;
+  width: 50%;
+  height: 75px;
+
+}
 
 @media screen and (max-width: 980px) {
   
@@ -152,7 +172,7 @@ img{
     color: antiquewhite;
     }
   
-  .crystals{
+  .crystalContainer{
     display: flex;
     flex-direction: row;
     margin-left:10px;
@@ -181,6 +201,18 @@ img{
     margin-top: 10px;
     margin-left: 10px;
     width: 30%;
+    height: 100px;
+  }
+
+  .winsloss{
+    display: flex;
+    flex-direction: row;
+    background-color: darkslateblue;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 25%;
     height: 100px;
   }
   
@@ -234,24 +266,37 @@ img{
     display: flex;
     justify-content: center;
     background-color: pink;
+    padding-top: 10px;
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
     width: 50%;
-    height: 30px;
+    height: 100px;
   }
   
-  #totaladd{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
+  #totalAdd{
+    font-size: 40px;
     background-color: pink;
     padding-top: 10px;
     padding-left: 10px;
     margin-top: 10px;
-    margin-left: 12%;
     width: 30%;
     height: 100px;
+  }
+
+  #playAgain{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left:10px;
+    width: 50%;
+    height: 75px;
+  
   }
   
 }
@@ -286,7 +331,7 @@ img{
     color: antiquewhite;
     }
   
-  .crystals{
+  .crystalContainer{
     display: flex;
     flex-direction: row;
     margin-left:10px;
@@ -314,6 +359,18 @@ img{
     height: 100px;
   }
   
+  .winsloss{
+    display: flex;
+    flex-direction: row;
+    background-color: darkslateblue;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 25%;
+    height: 100px;
+  }
+
   #win{
     background-color: darkslateblue;
     margin-top: 10px;
@@ -341,24 +398,37 @@ img{
     display: flex;
     justify-content: center;
     background-color: pink;
+    padding-top: 10px;
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
     width: 50%;
-    height: 30px;
+    height: 100px;
   }
   
-  #totaladd{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
+  #totalAdd{
+    font-size: 40px;
     background-color: pink;
     padding-top: 10px;
     padding-left: 10px;
     margin-top: 10px;
-    margin-left: 12%;
     width: 30%;
     height: 100px;
   }
   
+  #playAgain{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left:10px;
+    width: 50%;
+    height: 75px;
+  
+  }
+
   }
